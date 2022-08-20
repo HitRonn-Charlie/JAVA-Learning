@@ -1,22 +1,19 @@
- class Constr {
+class Constr {
 
     String name;
 
-    //Constructor
+    // Constructor
 
-     Constr() {
+    Constr() {
         name = "Constructor";
 
     }
-    
 
     public static void main(String[] args) {
-        //Creating object in same class
+        // Creating object in same class
 
-    Constr obj = new Constr();
-    System.out.println("I am " + obj.name);
+        Constr obj = new Constr();
+        System.out.println("I am " + obj.name);
 
     }
 }
-
-
