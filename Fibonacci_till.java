@@ -12,7 +12,7 @@ public class Fibonacci_till{
 
         int firstno= 0, secondno = 1;
 
-        for(int i=1; i<=num; i++){
+        for(int i=1; i<=num; ++i){
 
             System.out.print(firstno + ", ");
 
